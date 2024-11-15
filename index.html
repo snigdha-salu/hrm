@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>eHRMS</title>
+    <link rel="shortcut icon" href="">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <style></style>
+    <style></style>
+</head>
+
+<body>
+
+
+    <!-- =======================
+Header START -->
+    <header class="navbar-light fixed-top header-static bg-mode" style="background: linear-gradient(to right, blue 0%, #fc6075 100%);color:#fff;">
+
+        <!-- Logo Nav START -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo START -->
+                <a class="navbar-brand" href="index.html">
+                    <img class="light-mode-item navbar-brand-item" src="img/logo.jpg" alt="logo">
+                    <img class="dark-mode-item navbar-brand-item" src="img/logo.jpg" alt="logo">
+                </a>
+                <!-- Logo END -->
+                <ul class="nav flex-nowrap align-items-center ms-sm-3 list-unstyled">
+                    <li class="nav-item ms-2">
+                        <span> Welcome to HRMS Application for Maharashtra</span>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- =======================
+Header END -->
+
+    <!-- **************** MAIN CONTENT START **************** -->
+    <main>
+
+        <!-- Container START -->
+        <div class="container">
+            <div class="row g-4">
+
+
+                <div class="col-lg-3">
+
+                    <!-- Advanced filter responsive toggler START -->
+                    <div class="d-flex align-items-center d-lg-none">
+                        <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+                            <span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+                            <span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+                        </button>
+                    </div>
+                    <!-- Advanced filter responsive toggler END -->
+
+                    <!-- Navbar START-->
+                    <nav class="navbar navbar-expand-lg mx-0">
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar">
+                            <!-- Offcanvas header -->
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <!-- Offcanvas body -->
+                            <div class="offcanvas-body d-block px-2 px-lg-0">
+                                <!-- Card START -->
+                                <div class="card overflow-hidden">
+                                    <!-- Cover image -->
+                                    <div class="h-50px" style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+                                    <!-- Card body START -->
+                                    <div class="card-body pt-0">
+                                        <div class="text-center">
+                                            <!-- Avatar -->
+                                            <div class="avatar avatar-lg mt-n5 mb-3">
+                                                <a href="#!"><img class="avatar-img rounded border border-white border-3" src="img/sajnikar.jfif" alt=""></a>
+                                            </div>
+                                            <!-- Info -->
+                                            <h5 class="mb-0"> <a href="#!">Shri Prashant Sajanikar </a> </h5>
+                                            <small>Joint Secretary</small>
+                                            <p class="mt-3">Joined 20 years 10 months 5 days ago.</p>
+                                        </div>
+
+
+
+                                        <!-- Divider -->
+                                        <hr>
+
+                                        <!-- Side Nav START -->
+                                        <ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="salary.html"> <img class="me-2 h-20px fa-fw" src="img/get-money.png" alt=""><span>Salary </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="leave.html"> <img class="me-2 h-20px fa-fw" src="img/leave.png" alt=""><span>Leaves </span></a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="mahapar.html"> <img class="me-2 h-20px fa-fw" src="img/appraisal.png" alt=""><span>Mahapar </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/service-book.avif" alt=""><span>Service Book </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/promotion.webp" alt=""><span>Promotion </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/appraisal.png" alt=""><span>Allowances </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/airplne.jpg" alt=""><span>LTC </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/images.png" alt=""><span>Email </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/team-work-icon-P8HPCH.jpg" alt=""><span>Message to your Team </span></a>
+                                            </li>
+
+                                        </ul>
+
+                                        <!-- Side Nav END -->
+                                    </div>
+                                    <!-- Card body END -->
+                                </div>
+                                <!-- Card END -->
+
+
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- Navbar END-->
+                </div>
+
+                <div class="col-lg-6">
+
+
+                    <!-- Card feed item START -->
+                    <div class="card">
+                        <!-- Card header START -->
+                        <div class="card-header border-0 pb-0">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <!-- Avatar -->
+
+                                    <!-- Info -->
+                                    <div>
+                                        <div class="nav nav-divider">
+                                            <h6 class="nav-item card-title mb-0"> <a href="javascript:void"> Calendar </a></h6>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="calendar-container">
+                                <div class="calendar-container__header">
+                                    <button class="calendar-container__btn calendar-container__btn--left" title="Previous">
+                                        <i class="icon ion-ios-arrow-back"></i>
+                                    </button>
+                                    <h2 class="calendar-container__title">January 2025</h2>
+                                    <button class="calendar-container__btn calendar-container__btn--right" title="Next">
+                                        <i class="icon ion-ios-arrow-forward"></i>
+                                    </button>
+                                </div>
+                                <div class="calendar-container__body">
+                                    <div class="calendar-table">
+                                        <div class="calendar-table__header">
+                                            <div class="calendar-table__row">
+                                                <div class="calendar-table__col">S</div>
+                                                <div class="calendar-table__col">M</div>
+                                                <div class="calendar-table__col">T</div>
+                                                <div class="calendar-table__col">W</div>
+                                                <div class="calendar-table__col">T</div>
+                                                <div class="calendar-table__col">F</div>
+                                                <div class="calendar-table__col">S</div>
+                                            </div>
+                                        </div>
+                                        <div class="calendar-table__body">
+                                            <div class="calendar-table__row">
+                                                <div class="calendar-table__col calendar-table__inactive">
+                                                    <div class="calendar-table__item">
+                                                        <span>30</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col calendar-table__today">
+                                                    <div class="calendar-table__item">
+                                                        <span>1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>3</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>4</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>5</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>6</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="calendar-table__row">
+                                                <div class="calendar-table__col ">
+                                                    <div class="calendar-table__item">
+                                                        <span>7</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>8</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>9</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>10</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>11</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>12</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>13</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="calendar-table__row">
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>14</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>16</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>17</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>18</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>19</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>20</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="calendar-table__row">
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>21</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>22</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>23</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>24</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>25</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>26</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>27</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="calendar-table__row">
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>28</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>29</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>30</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col">
+                                                    <div class="calendar-table__item">
+                                                        <span>31</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col calendar-table__inactive">
+                                                    <div class="calendar-table__item">
+                                                        <span>1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col calendar-table__inactive">
+                                                    <div class="calendar-table__item">
+                                                        <span>2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calendar-table__col calendar-table__inactive">
+                                                    <div class="calendar-table__item">
+                                                        <span>3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="events-container"></div>
+
+
+
+
+                            <div class="nav-item">
+                                <button type="button" class="btn btn-danger" onclick="setCalendar('red')">Holiday</button>
+                                <button type="button" class="btn btn-success" onclick="setCalendar('green')">Present</button>
+                                <button type="button" class="btn btn-warning" onclick="setCalendar('orange')">Late</button>
+                                <button type="button" class="btn btn-primary" onclick="setCalendar('darkorange')">Absent</button>
+                                <button type="button" class="btn btn-secondary" onclick="setCalendar('pink')">Weekend</button>
+                            </div>
+
+                            <!-- Card body END -->
+
+                        </div>
+                        <!-- Card feed item END -->
+                    </div>
+                </div>
+                <!-- Right sidebar START -->
+                <div class="col-lg-3">
+                    <div class="row g-4">
+                        <!-- Card follow START -->
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="card">
+                                <!-- Card header START -->
+                                <div class="card-header pb-0 border-0">
+                                    <h5 class="card-title mb-0">Birthday</h5>
+                                </div>
+                                <!-- Card header END -->
+                                <!-- Card body START -->
+                                <div class="card-body">
+                                    <!-- Connection item START -->
+                                    <div class="hstack gap-2 mb-3">
+                                        <!-- Avatar -->
+                                        <div class="avatar">
+                                            <a href="javascript:void"><img class="avatar-img rounded-circle" src="img/avatar-2027363_640.png" alt=""></a>
+                                        </div>
+                                        <!-- Title -->
+                                        <div class="overflow-hidden">
+                                            <a class="h6 mb-0" href="javascript:void">Uttam Patra </a>
+                                            <p class="mb-0 small text-truncate">Project Manager</p>
+                                        </div>
+
+                                    </div>
+                                    <!-- Connection item END -->
+                                    <!-- Connection item START -->
+                                    <div class="hstack gap-2 mb-3">
+                                        <!-- Avatar -->
+                                        <div class="avatar avatar-story">
+                                            <a href="javascript:void"> <img class="avatar-img rounded-circle" src="img/female-306407_640.png" alt=""> </a>
+                                        </div>
+                                        <!-- Title -->
+                                        <div class="overflow-hidden">
+                                            <a class="h6 mb-0" href="javascript:void">Employee Name </a>
+                                            <p class="mb-0 small text-truncate">Designation</p>
+                                        </div>
+
+                                    </div>
+                                    <!-- Connection item END -->
+                                    <!-- Connection item START -->
+                                    <button type="button" class="btn btn-link">More</button>
+                                    <!-- Connection item END -->
+
+
+                                </div>
+                                <!-- Card body END -->
+                            </div>
+                        </div>
+                        <!-- Card follow START -->
+                        <!-- Card follow START -->
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="card">
+                                <!-- Card header START -->
+                                <div class="card-header pb-0 border-0">
+                                    <h5 class="card-title mb-0">Superannuation</h5>
+                                </div>
+                                <!-- Card header END -->
+                                <!-- Card body START -->
+                                <div class="card-body">
+                                    <!-- Connection item START -->
+                                    <div class="hstack gap-2 mb-3">
+                                        <!-- Avatar -->
+                                        <div class="avatar">
+                                            <a href="javascript:void"><img class="avatar-img rounded-circle" src="img/avatar-2027363_640.png" alt=""></a>
+                                        </div>
+                                        <!-- Title -->
+                                        <div class="overflow-hidden">
+                                            <a class="h6 mb-0" href="javascript:void">Uttam Patra </a>
+                                            <p class="mb-0 small text-truncate">Project Manager</p>
+                                        </div>
+
+                                    </div>
+                                    <!-- Connection item END -->
+                                    <!-- Connection item START -->
+                                    <div class="hstack gap-2 mb-3">
+                                        <!-- Avatar -->
+                                        <div class="avatar avatar-story">
+                                            <a href="javascript:void"> <img class="avatar-img rounded-circle" src="img/female-306407_640.png" alt=""> </a>
+                                        </div>
+                                        <!-- Title -->
+                                        <div class="overflow-hidden">
+                                            <a class="h6 mb-0" href="javascript:void">Employee Name </a>
+                                            <p class="mb-0 small text-truncate">Designation</p>
+                                        </div>
+
+                                    </div>
+                                    <!-- Connection item END -->
+                                    <!-- Connection item START -->
+                                    <button type="button" class="btn btn-link">More</button>
+                                    <!-- Connection item END -->
+
+
+                                </div>
+                                <!-- Card body END -->
+                            </div>
+                        </div>
+                        <!-- Card follow START -->
+                        <!-- Card News START -->
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="card">
+                                <!-- Card header START -->
+                                <div class="card-header pb-0 border-0">
+                                    <h5 class="card-title mb-0">Today’s news</h5>
+                                </div>
+                                <!-- Card header END -->
+                                <!-- Card body START -->
+                                <div class="card-body">
+                                    <!-- News item -->
+                                    <div class="mb-3">
+                                        <h6 class="mb-0"><a href="javascript:void">Ten questions you should answer truthfully</a></h6>
+                                        <small>2hr</small>
+                                    </div>
+                                    <!-- News item -->
+                                    <div class="mb-3">
+                                        <h6 class="mb-0"><a href="javascript:void">Five unbelievable facts about money</a></h6>
+                                        <small>3hr</small>
+                                    </div>
+                                    <!-- Load more comments -->
+                                    <a href="javascript:void" role="button" class="btn btn-link btn-link-loader btn-sm text-secondary d-flex align-items-center" data-bs-toggle="button" aria-pressed="true">
+                                        <div class="spinner-dots me-2">
+                                            <span class="spinner-dot"></span>
+                                            <span class="spinner-dot"></span>
+                                            <span class="spinner-dot"></span>
+                                        </div>
+                                        View all latest news
+                                    </a>
+                                </div>
+                                <!-- Card body END -->
+                            </div>
+                        </div>
+                        <!-- Card News END -->
+                    </div>
+                </div>
+                <!-- Right sidebar END -->
+
+
+                <!-- Sidenav END -->
+
+
+
+            </div> <!-- Row END -->
+        </div>
+        <!-- Container END -->
+
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        setCalendar('pink');
+    </script>
+
+</body>
+
+</html>

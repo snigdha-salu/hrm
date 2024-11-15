@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>eHRMS</title>
+
+    <!-- Meta Tags -->
+
+
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <style></style>
+    <style></style>
+</head>
+
+<body onload="checkBonus()">
+
+
+    <!-- =======================
+Header START -->
+    <header class="navbar-light fixed-top header-static bg-mode" style="background: linear-gradient(to right, blue 0%, #fc6075 100%);color:#fff;">
+
+        <!-- Logo Nav START -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo START -->
+                <a class="navbar-brand" href="index.html">
+                    <img class="light-mode-item navbar-brand-item" src="img/logo.jpg" alt="logo">
+                    <img class="dark-mode-item navbar-brand-item" src="img/logo.jpg" alt="logo">
+                </a>
+                <!-- Logo END -->
+                <ul class="nav flex-nowrap align-items-center ms-sm-3 list-unstyled">
+                    <li class="nav-item ms-2">
+                        <span> Welcome to HRMS Application for Maharashtra</span>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container">
+            <div class="row g-4">
+
+
+                <div class="col-lg-3">
+
+                    <div class="d-flex align-items-center d-lg-none">
+                        <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+                            <span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+                            <span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+                        </button>
+                    </div>
+                    <nav class="navbar navbar-expand-lg mx-0">
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body d-block px-2 px-lg-0">
+                                <div class="card overflow-hidden">
+                                    <div class="h-50px" style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+                                    <div class="card-body pt-0">
+                                        <div class="text-center">
+                                            <!-- Avatar -->
+                                            <div class="avatar avatar-lg mt-n5 mb-3">
+                                                <a href="#!"><img class="avatar-img rounded border border-white border-3" src="img/sajnikar.jfif" alt=""></a>
+                                            </div>
+                                            <!-- Info -->
+                                            <h5 class="mb-0"> <a href="#!">Shri Prashant Sajanikar </a> </h5>
+                                            <small>Joint Secretary</small>
+                                            <p class="mt-3">Joined 20 years 10 months 5 days ago.</p>
+                                        </div>
+
+
+
+                                        <!-- Divider -->
+                                        <hr>
+
+                                        <!-- Side Nav START -->
+                                        <ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="salary.html"> <img class="me-2 h-20px fa-fw" src="img/get-money.png" alt=""><span>Salary </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="leave.html"> <img class="me-2 h-20px fa-fw" src="img/leave.png" alt=""><span>Leaves </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="mahapar.html"> <img class="me-2 h-20px fa-fw" src="img/appraisal.png" alt=""><span>Mahapar </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/service-book.avif" alt=""><span>Service Book </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/promotion.webp" alt=""><span>Promotion </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/appraisal.png" alt=""><span>Allowances </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/airplne.jpg" alt=""><span>LTC </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/images.png" alt=""><span>Email </span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html"> <img class="me-2 h-20px fa-fw" src="img/team-work-icon-P8HPCH.jpg" alt=""><span>Message to your Team </span></a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Track My PAR
+                                    </div>
+                                    <form>
+
+                                        <div class="form-group row">
+                                            <div class="d-flex g8">
+
+
+                                                <label for="staticEmail" class="col-sm-2 col-form-label">Assessment Period :</label>
+                                                <div class="col-sm-4">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Choose Assesment</option>
+                                                        <option value="1">2024-2025</option>
+                                                        <option value="2">2023-2024</option>
+                                                        <option value="3">2022-2023</option>
+                                                        <option value="3">2021-2022</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <button type="button" class="btn btn-danger" onclick="showpdf()">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div id="download_content" class="download_content" style="display:none;padding: 30px 0px 20px 0px;">
+                                        <div class="datatables">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="table-responsive">
+
+                                                        <div class="dt-buttons"> <button class="dt-button buttons-copy buttons-html5 btn btn-primary" tabindex="0" aria-controls="file_export" type="button"><span>Copy</span></button> <button class="dt-button buttons-csv buttons-html5 btn btn-primary" tabindex="0" aria-controls="file_export" type="button"><span>CSV</span></button> <button class="dt-button buttons-excel buttons-html5 btn btn-primary" tabindex="0" aria-controls="file_export" type="button"><span>Excel</span></button> <button class="dt-button buttons-pdf buttons-html5 btn btn-primary" tabindex="0" aria-controls="file_export" type="button"><span>PDF</span></button> <button class="dt-button buttons-print btn btn-primary" tabindex="0" aria-controls="file_export" type="button"><span>Print</span></button> </div>
+
+                                                        <table id="file_export" class="table w-100 table-striped table-bordered display text-nowrap dataTable" aria-describedby="file_export_info">
+                                                            <thead>
+                                                                <!-- start row -->
+                                                                <tr>
+                                                                    <th class="sorting sorting_asc" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 164.988px;">Name</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 271.987px;">Position</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 123.387px;">Office</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 50.3875px;">Age</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 114.213px;">Start date</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 109.438px;">Salary</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+
+                                                                <tr class="odd">
+                                                                    <td class="sorting_1"><a data-toggle="modal" data-target="#exampleModalCenter">
+                                                                            par-123-hgas
+                                                                        </a></td>
+                                                                    <td>Accountant</td>
+                                                                    <td>Tokyo</td>
+                                                                    <td>33</td>
+                                                                    <td>2008/11/28</td>
+                                                                    <td>$162,700</td>
+                                                                </tr>
+                                                                <tr class="even">
+                                                                    <td class="sorting_1">Angelica Ramos</td>
+                                                                    <td>Chief Executive Officer (CEO)</td>
+                                                                    <td>London</td>
+                                                                    <td>47</td>
+                                                                    <td>2009/10/09</td>
+                                                                    <td>$1,200,000</td>
+                                                                </tr>
+                                                                <tr class="odd">
+                                                                    <td class="sorting_1">Ashton Cox</td>
+                                                                    <td>Junior Technical Author</td>
+                                                                    <td>San Francisco</td>
+                                                                    <td>66</td>
+                                                                    <td>2009/01/12</td>
+                                                                    <td>$86,000</td>
+                                                                </tr>
+                                                                
+                                                            </tbody>
+
+                                                        </table>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end File export -->
+
+                                        </div>
+                                    </div>
+                                    <div id="download_content1" class="download_content1" style="display:none;padding: 30px 0px 20px 0px;">
+                                        <p class="card-title fw-semibold"><a href="doc/sample.pdf" download target="_blank"> My Completed PAR</a></p>
+                                        <p class="card-subtitle btn-primary">APAR ID: PAR Has been pending at reporting Authority stage</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <h5 class="mb-0">Inbox</h5>
+                                    </div>
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home5" role="tab" aria-controls="home5" aria-expanded="true" aria-selected="true">
+                                                <span>My PAR(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile5" role="tab" aria-controls="profile" aria-selected="false" tabindex="-1">
+                                                <span>Access PAR(0)</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                    <div class="tab-content tabcontent-border p-3" id="myTabContent">
+                                        <div role="tabpanel" class="tab-pane fade show active" id="home5" aria-labelledby="home-tab">
+                                            <p>
+                                                Raw denim you probably haven't heard of them jean
+                                                shorts Austin. Nesciunt tofu stumptown aliqua, retro
+                                                synth master cleanse. Mustache cliche tempor,
+                                                williamsburg carles vegan helvetica. Reprehenderit
+                                                butcher retro keffiyeh dreamcatcher synth. Cosby
+                                                sweater eu banh mi, qui irure terry richardson ex
+                                                squid. Aliquip placeat salvia cillum iphone. Seitan
+                                                aliquip quis cardigan american apparel, butcher
+                                                voluptate nisi qui.
+                                            </p>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile5" role="tabpanel" aria-labelledby="profile-tab">
+                                            <p>
+                                                Food truck fixie locavore, accusamus mcsweeney's marfa
+                                                nulla single-origin coffee squid. Exercitation +1
+                                                labore velit, blog sartorial PBR leggings next level
+                                                wes anderson artisan four loko farm-to-table craft
+                                                beer twee. Qui photo booth letterpress, commodo enim
+                                                craft beer mlkshk aliquip jean shorts ullamco ad vinyl
+                                                cillum PBR. Homo nostrud organic, assumenda labore
+                                                aesthetic magna delectus mollit. Keytar helvetica VHS
+                                                salvia yr, vero magna velit sapiente labore stumptown.
+                                                Vegan fanny pack odio cillum wes anderson 8-bit,
+                                                sustainable jean shorts beard ut DIY ethical culpa
+                                                terry richardson biodiesel. Art party scenester
+                                                stumptown, tumblr butcher vero sint qui sapiente
+                                                accusamus tattooed echo park.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+    </main>
+
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- =======================
+                JS libraries, plugins and custom scripts -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        new DataTable('#file_export', {
+            info: false,
+            ordering: false,
+            paging: false
+        });
+    </script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
